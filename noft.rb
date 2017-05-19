@@ -40,6 +40,9 @@ Noft.icon_set(:glyphicon) do |s|
   NoftPlus::Util.download_file("https://raw.githubusercontent.com/twbs/bootstrap/v#{INPUT_VERSION}/dist/fonts/glyphicons-halflings-regular.svg",
                                "#{WORKING_DIRECTORY}/original-webfont.svg")
   File.write(s.font_file,
+             # We patch the downloaded svg as several of the icons are offcenter.
+             # there are some that exceed the bounds of font but we are ignoring these
+             # for now as we don't use any of them
              IO.read("#{WORKING_DIRECTORY}/original-webfont.svg").
                gsub('ascent="960"','ascent="1200"').
                gsub('ascent="-240"','descent="0"') )
