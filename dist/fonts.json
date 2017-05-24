@@ -1,0 +1,797 @@
+{
+  "name": "glyphicon",
+  "displayString": "Glyphicons Halflings",
+  "description": "The Glyphicon Halfings subset included in Bootstrap",
+  "version": "3.3.7",
+  "url": "http://getbootstrap.com/components/",
+  "license": "The MIT License (MIT)",
+  "licenseUrl": "https://github.com/twbs/bootstrap/blob/v3.3.7/LICENSE",
+  "icons": {
+    "asterisk": {
+      "unicode": "002a"
+    },
+    "plus": {
+      "unicode": "002b"
+    },
+    "eur": {
+      "unicode": "20ac"
+    },
+    "minus": {
+      "unicode": "2212"
+    },
+    "cloud": {
+      "unicode": "2601"
+    },
+    "envelope": {
+      "unicode": "2709"
+    },
+    "pencil": {
+      "unicode": "270f"
+    },
+    "glass": {
+      "unicode": "e001"
+    },
+    "music": {
+      "unicode": "e002"
+    },
+    "search": {
+      "unicode": "e003"
+    },
+    "heart": {
+      "unicode": "e005"
+    },
+    "star": {
+      "unicode": "e006"
+    },
+    "star-empty": {
+      "unicode": "e007"
+    },
+    "user": {
+      "unicode": "e008"
+    },
+    "film": {
+      "unicode": "e009"
+    },
+    "th-large": {
+      "unicode": "e010"
+    },
+    "th": {
+      "unicode": "e011"
+    },
+    "th-list": {
+      "unicode": "e012"
+    },
+    "ok": {
+      "unicode": "e013"
+    },
+    "remove": {
+      "unicode": "e014"
+    },
+    "zoom-in": {
+      "unicode": "e015"
+    },
+    "zoom-out": {
+      "unicode": "e016"
+    },
+    "off": {
+      "unicode": "e017"
+    },
+    "signal": {
+      "unicode": "e018"
+    },
+    "cog": {
+      "unicode": "e019"
+    },
+    "trash": {
+      "unicode": "e020"
+    },
+    "home": {
+      "unicode": "e021"
+    },
+    "file": {
+      "unicode": "e022"
+    },
+    "time": {
+      "unicode": "e023"
+    },
+    "road": {
+      "unicode": "e024"
+    },
+    "download-alt": {
+      "unicode": "e025"
+    },
+    "download": {
+      "unicode": "e026"
+    },
+    "upload": {
+      "unicode": "e027"
+    },
+    "inbox": {
+      "unicode": "e028"
+    },
+    "play-circle": {
+      "unicode": "e029"
+    },
+    "repeat": {
+      "unicode": "e030"
+    },
+    "refresh": {
+      "unicode": "e031"
+    },
+    "list-alt": {
+      "unicode": "e032"
+    },
+    "lock": {
+      "unicode": "e033"
+    },
+    "flag": {
+      "unicode": "e034"
+    },
+    "headphones": {
+      "unicode": "e035"
+    },
+    "volume-off": {
+      "unicode": "e036"
+    },
+    "volume-down": {
+      "unicode": "e037"
+    },
+    "volume-up": {
+      "unicode": "e038"
+    },
+    "qrcode": {
+      "unicode": "e039"
+    },
+    "barcode": {
+      "unicode": "e040"
+    },
+    "tag": {
+      "unicode": "e041"
+    },
+    "tags": {
+      "unicode": "e042"
+    },
+    "book": {
+      "unicode": "e043"
+    },
+    "bookmark": {
+      "unicode": "e044"
+    },
+    "print": {
+      "unicode": "e045"
+    },
+    "camera": {
+      "unicode": "e046"
+    },
+    "font": {
+      "unicode": "e047"
+    },
+    "bold": {
+      "unicode": "e048"
+    },
+    "italic": {
+      "unicode": "e049"
+    },
+    "text-height": {
+      "unicode": "e050"
+    },
+    "text-width": {
+      "unicode": "e051"
+    },
+    "align-left": {
+      "unicode": "e052"
+    },
+    "align-center": {
+      "unicode": "e053"
+    },
+    "align-right": {
+      "unicode": "e054"
+    },
+    "align-justify": {
+      "unicode": "e055"
+    },
+    "list": {
+      "unicode": "e056"
+    },
+    "indent-left": {
+      "unicode": "e057"
+    },
+    "indent-right": {
+      "unicode": "e058"
+    },
+    "facetime-video": {
+      "unicode": "e059"
+    },
+    "picture": {
+      "unicode": "e060"
+    },
+    "map-marker": {
+      "unicode": "e062"
+    },
+    "adjust": {
+      "unicode": "e063"
+    },
+    "tint": {
+      "unicode": "e064"
+    },
+    "edit": {
+      "unicode": "e065"
+    },
+    "share": {
+      "unicode": "e066"
+    },
+    "check": {
+      "unicode": "e067"
+    },
+    "move": {
+      "unicode": "e068"
+    },
+    "step-backward": {
+      "unicode": "e069"
+    },
+    "fast-backward": {
+      "unicode": "e070"
+    },
+    "backward": {
+      "unicode": "e071"
+    },
+    "play": {
+      "unicode": "e072"
+    },
+    "pause": {
+      "unicode": "e073"
+    },
+    "stop": {
+      "unicode": "e074"
+    },
+    "forward": {
+      "unicode": "e075"
+    },
+    "fast-forward": {
+      "unicode": "e076"
+    },
+    "step-forward": {
+      "unicode": "e077"
+    },
+    "eject": {
+      "unicode": "e078"
+    },
+    "chevron-left": {
+      "unicode": "e079"
+    },
+    "chevron-right": {
+      "unicode": "e080"
+    },
+    "plus-sign": {
+      "unicode": "e081"
+    },
+    "minus-sign": {
+      "unicode": "e082"
+    },
+    "remove-sign": {
+      "unicode": "e083"
+    },
+    "ok-sign": {
+      "unicode": "e084"
+    },
+    "question-sign": {
+      "unicode": "e085"
+    },
+    "info-sign": {
+      "unicode": "e086"
+    },
+    "screenshot": {
+      "unicode": "e087"
+    },
+    "remove-circle": {
+      "unicode": "e088"
+    },
+    "ok-circle": {
+      "unicode": "e089"
+    },
+    "ban-circle": {
+      "unicode": "e090"
+    },
+    "arrow-left": {
+      "unicode": "e091"
+    },
+    "arrow-right": {
+      "unicode": "e092"
+    },
+    "arrow-up": {
+      "unicode": "e093"
+    },
+    "arrow-down": {
+      "unicode": "e094"
+    },
+    "share-alt": {
+      "unicode": "e095"
+    },
+    "resize-full": {
+      "unicode": "e096"
+    },
+    "resize-small": {
+      "unicode": "e097"
+    },
+    "exclamation-sign": {
+      "unicode": "e101"
+    },
+    "gift": {
+      "unicode": "e102"
+    },
+    "leaf": {
+      "unicode": "e103"
+    },
+    "fire": {
+      "unicode": "e104"
+    },
+    "eye-open": {
+      "unicode": "e105"
+    },
+    "eye-close": {
+      "unicode": "e106"
+    },
+    "warning-sign": {
+      "unicode": "e107"
+    },
+    "plane": {
+      "unicode": "e108"
+    },
+    "calendar": {
+      "unicode": "e109"
+    },
+    "random": {
+      "unicode": "e110"
+    },
+    "comment": {
+      "unicode": "e111"
+    },
+    "magnet": {
+      "unicode": "e112"
+    },
+    "chevron-up": {
+      "unicode": "e113"
+    },
+    "chevron-down": {
+      "unicode": "e114"
+    },
+    "retweet": {
+      "unicode": "e115"
+    },
+    "shopping-cart": {
+      "unicode": "e116"
+    },
+    "folder-close": {
+      "unicode": "e117"
+    },
+    "folder-open": {
+      "unicode": "e118"
+    },
+    "resize-vertical": {
+      "unicode": "e119"
+    },
+    "resize-horizontal": {
+      "unicode": "e120"
+    },
+    "hdd": {
+      "unicode": "e121"
+    },
+    "bullhorn": {
+      "unicode": "e122"
+    },
+    "bell": {
+      "unicode": "e123"
+    },
+    "certificate": {
+      "unicode": "e124"
+    },
+    "thumbs-up": {
+      "unicode": "e125"
+    },
+    "thumbs-down": {
+      "unicode": "e126"
+    },
+    "hand-right": {
+      "unicode": "e127"
+    },
+    "hand-left": {
+      "unicode": "e128"
+    },
+    "hand-up": {
+      "unicode": "e129"
+    },
+    "hand-down": {
+      "unicode": "e130"
+    },
+    "circle-arrow-right": {
+      "unicode": "e131"
+    },
+    "circle-arrow-left": {
+      "unicode": "e132"
+    },
+    "circle-arrow-up": {
+      "unicode": "e133"
+    },
+    "circle-arrow-down": {
+      "unicode": "e134"
+    },
+    "globe": {
+      "unicode": "e135"
+    },
+    "wrench": {
+      "unicode": "e136"
+    },
+    "tasks": {
+      "unicode": "e137"
+    },
+    "filter": {
+      "unicode": "e138"
+    },
+    "briefcase": {
+      "unicode": "e139"
+    },
+    "fullscreen": {
+      "unicode": "e140"
+    },
+    "dashboard": {
+      "unicode": "e141"
+    },
+    "paperclip": {
+      "unicode": "e142"
+    },
+    "heart-empty": {
+      "unicode": "e143"
+    },
+    "link": {
+      "unicode": "e144"
+    },
+    "phone": {
+      "unicode": "e145"
+    },
+    "pushpin": {
+      "unicode": "e146"
+    },
+    "usd": {
+      "unicode": "e148"
+    },
+    "gbp": {
+      "unicode": "e149"
+    },
+    "sort": {
+      "unicode": "e150"
+    },
+    "sort-by-alphabet": {
+      "unicode": "e151"
+    },
+    "sort-by-alphabet-alt": {
+      "unicode": "e152"
+    },
+    "sort-by-order": {
+      "unicode": "e153"
+    },
+    "sort-by-order-alt": {
+      "unicode": "e154"
+    },
+    "sort-by-attributes": {
+      "unicode": "e155"
+    },
+    "sort-by-attributes-alt": {
+      "unicode": "e156"
+    },
+    "unchecked": {
+      "unicode": "e157"
+    },
+    "expand": {
+      "unicode": "e158"
+    },
+    "collapse-down": {
+      "unicode": "e159"
+    },
+    "collapse-up": {
+      "unicode": "e160"
+    },
+    "log-in": {
+      "unicode": "e161"
+    },
+    "flash": {
+      "unicode": "e162"
+    },
+    "log-out": {
+      "unicode": "e163"
+    },
+    "new-window": {
+      "unicode": "e164"
+    },
+    "record": {
+      "unicode": "e165"
+    },
+    "save": {
+      "unicode": "e166"
+    },
+    "open": {
+      "unicode": "e167"
+    },
+    "saved": {
+      "unicode": "e168"
+    },
+    "import": {
+      "unicode": "e169"
+    },
+    "export": {
+      "unicode": "e170"
+    },
+    "send": {
+      "unicode": "e171"
+    },
+    "floppy-disk": {
+      "unicode": "e172"
+    },
+    "floppy-saved": {
+      "unicode": "e173"
+    },
+    "floppy-remove": {
+      "unicode": "e174"
+    },
+    "floppy-save": {
+      "unicode": "e175"
+    },
+    "floppy-open": {
+      "unicode": "e176"
+    },
+    "credit-card": {
+      "unicode": "e177"
+    },
+    "transfer": {
+      "unicode": "e178"
+    },
+    "cutlery": {
+      "unicode": "e179"
+    },
+    "header": {
+      "unicode": "e180"
+    },
+    "compressed": {
+      "unicode": "e181"
+    },
+    "earphone": {
+      "unicode": "e182"
+    },
+    "phone-alt": {
+      "unicode": "e183"
+    },
+    "tower": {
+      "unicode": "e184"
+    },
+    "stats": {
+      "unicode": "e185"
+    },
+    "sd-video": {
+      "unicode": "e186"
+    },
+    "hd-video": {
+      "unicode": "e187"
+    },
+    "subtitles": {
+      "unicode": "e188"
+    },
+    "sound-stereo": {
+      "unicode": "e189"
+    },
+    "sound-dolby": {
+      "unicode": "e190"
+    },
+    "sound-5-1": {
+      "unicode": "e191"
+    },
+    "sound-6-1": {
+      "unicode": "e192"
+    },
+    "sound-7-1": {
+      "unicode": "e193"
+    },
+    "copyright-mark": {
+      "unicode": "e194"
+    },
+    "registration-mark": {
+      "unicode": "e195"
+    },
+    "cloud-download": {
+      "unicode": "e197"
+    },
+    "cloud-upload": {
+      "unicode": "e198"
+    },
+    "tree-conifer": {
+      "unicode": "e199"
+    },
+    "tree-deciduous": {
+      "unicode": "e200"
+    },
+    "cd": {
+      "unicode": "e201"
+    },
+    "save-file": {
+      "unicode": "e202"
+    },
+    "open-file": {
+      "unicode": "e203"
+    },
+    "level-up": {
+      "unicode": "e204"
+    },
+    "copy": {
+      "unicode": "e205"
+    },
+    "paste": {
+      "unicode": "e206"
+    },
+    "alert": {
+      "unicode": "e209"
+    },
+    "equalizer": {
+      "unicode": "e210"
+    },
+    "king": {
+      "unicode": "e211"
+    },
+    "queen": {
+      "unicode": "e212"
+    },
+    "pawn": {
+      "unicode": "e213"
+    },
+    "bishop": {
+      "unicode": "e214"
+    },
+    "knight": {
+      "unicode": "e215"
+    },
+    "baby-formula": {
+      "unicode": "e216"
+    },
+    "tent": {
+      "unicode": "26fa"
+    },
+    "blackboard": {
+      "unicode": "e218"
+    },
+    "bed": {
+      "unicode": "e219"
+    },
+    "apple": {
+      "unicode": "f8ff"
+    },
+    "erase": {
+      "unicode": "e221"
+    },
+    "hourglass": {
+      "unicode": "231b"
+    },
+    "lamp": {
+      "unicode": "e223"
+    },
+    "duplicate": {
+      "unicode": "e224"
+    },
+    "piggy-bank": {
+      "unicode": "e225"
+    },
+    "scissors": {
+      "unicode": "e226"
+    },
+    "bitcoin": {
+      "unicode": "e227"
+    },
+    "btc": {
+      "unicode": "e227"
+    },
+    "xbt": {
+      "unicode": "e227"
+    },
+    "yen": {
+      "unicode": "00a5"
+    },
+    "jpy": {
+      "unicode": "00a5"
+    },
+    "ruble": {
+      "unicode": "20bd"
+    },
+    "rub": {
+      "unicode": "20bd"
+    },
+    "scale": {
+      "unicode": "e230"
+    },
+    "ice-lolly": {
+      "unicode": "e231"
+    },
+    "ice-lolly-tasted": {
+      "unicode": "e232"
+    },
+    "education": {
+      "unicode": "e233"
+    },
+    "option-horizontal": {
+      "unicode": "e234"
+    },
+    "option-vertical": {
+      "unicode": "e235"
+    },
+    "menu-hamburger": {
+      "unicode": "e236"
+    },
+    "modal-window": {
+      "unicode": "e237"
+    },
+    "oil": {
+      "unicode": "e238"
+    },
+    "grain": {
+      "unicode": "e239"
+    },
+    "sunglasses": {
+      "unicode": "e240"
+    },
+    "text-size": {
+      "unicode": "e241"
+    },
+    "text-color": {
+      "unicode": "e242"
+    },
+    "text-background": {
+      "unicode": "e243"
+    },
+    "object-align-top": {
+      "unicode": "e244"
+    },
+    "object-align-bottom": {
+      "unicode": "e245"
+    },
+    "object-align-horizontal{": {
+      "unicode": "e246"
+    },
+    "object-align-left": {
+      "unicode": "e247"
+    },
+    "object-align-vertical": {
+      "unicode": "e248"
+    },
+    "object-align-right": {
+      "unicode": "e249"
+    },
+    "triangle-right": {
+      "unicode": "e250"
+    },
+    "triangle-left": {
+      "unicode": "e251"
+    },
+    "triangle-bottom": {
+      "unicode": "e252"
+    },
+    "triangle-top": {
+      "unicode": "e253"
+    },
+    "console": {
+      "unicode": "e254"
+    },
+    "superscript": {
+      "unicode": "e255"
+    },
+    "subscript": {
+      "unicode": "e256"
+    },
+    "menu-left": {
+      "unicode": "e257"
+    },
+    "menu-right": {
+      "unicode": "e258"
+    },
+    "menu-down": {
+      "unicode": "e259"
+    },
+    "menu-up": {
+      "unicode": "e260"
+    }
+  }
+}
