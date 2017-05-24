@@ -14,20 +14,16 @@
 
 module Noft
   module Base
-    class AssetsTemplate < Reality::Generators::Template
-      def initialize(template_set, facets, target, template_key, helpers, options = {})
-        super(template_set, facets, target, template_key, helpers, options)
+    class AssetsTemplate < Reality::Generators::SingleDirectoryOutputTemplate
+      def initialize(template_set, facets, target, template_key, output_directory_pattern, helpers, options = {})
+        super(template_set, facets, target, template_key, output_directory_pattern, helpers, options)
       end
 
       protected
 
-      def generate!(target_basedir, element, unprocessed_files)
-        base_dir = File.join(target_basedir, 'assets')
-        output_dir = File.join(base_dir, element.name.to_s)
-
-        FileUtils.rm_rf output_dir
-        Noft::Generator.generate_assets(element.name, output_dir)
-        unprocessed_files.delete_if { |f| f =~ /^#{output_dir}\/.*/ }
+      def generate_to_directory!(output_directory, element)
+        FileUtils.rm_rf output_directory
+        Noft::Generator.generate_assets(element.name, output_directory)
       end
     end
   end
