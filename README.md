@@ -1,3 +1,9 @@
+# Archived
+
+<p align="center">We now use svgs shipped by upstream so this is no longer necessary.</p>
+
+---
+
 # assets-glyphicons-halflings-regular
 
 [![Build Status](https://secure.travis-ci.org/realityforge/assets-glyphicons-halflings-regular.svg?branch=master)](http://travis-ci.org/realityforge/assets-glyphicons-halflings-regular)
